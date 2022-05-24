@@ -1,0 +1,31 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "Mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "googleapis": "^95.0.0",
+    "mongo": "^0.1.0",
+    "passport": "^0.5.2",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-local": "^1.0.0",
+    "password-hash": "^1.2.2",
+    "supertest": "^6.2.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  }
+}
